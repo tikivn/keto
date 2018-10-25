@@ -1,0 +1,13 @@
+
+{
+  "name": "tikivn/hydra-keto",
+  "require": {
+    "php": ">=5.4",
+    "ext-curl": "*",
+    "ext-json": "*",
+    "ext-mbstring": "*"
+  },
+  "autoload": {
+    "psr-4": { "keto\\SDK\\" : "sdk/php/swagger/lib/" }
+  }
+}
